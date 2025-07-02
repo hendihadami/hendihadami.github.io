@@ -1,0 +1,106 @@
+/* Umum */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd;
+  color: #333;
+}
+header h3 {
+  font-weight: normal;
+  margin-top: -10px;
+  color: #e0e0e0;
+  font-size: 18px;
+}
+
+header {
+  background-color: #007bff;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+nav a:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #f1f1f1;
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+}
+
+.post {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+
+/* Casing putih */
+.galeri {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.galeri img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.galeri img:hover {
+  transform: scale(1.05);
+}
+/* Casing putih */
+.kontak-list {
+  margin: 30px auto;
+  padding: 20px;
+  background: #f3f3f3;
+  border-radius: 10px;
+  max-width: 500px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.kontak-list p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.kontak-list a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.kontak-list a:hover {
+  text-decoration: underline;
+}
